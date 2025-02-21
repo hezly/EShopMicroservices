@@ -1,10 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E9161945-1103-4AAF-8A32-11F52DB1AC4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{3E2B9DC0-100C-4C82-A591-AF531A050596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{C652222F-5406-4DF0-B523-1F96733DD5AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{32AE5E3F-DD33-432C-B007-BCA9AD0A3588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{D72BFF12-D69B-4165-9F7A-D2FF9385A7D9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C652222F-5406-4DF0-B523-1F96733DD5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C652222F-5406-4DF0-B523-1F96733DD5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C652222F-5406-4DF0-B523-1F96733DD5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C652222F-5406-4DF0-B523-1F96733DD5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72BFF12-D69B-4165-9F7A-D2FF9385A7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72BFF12-D69B-4165-9F7A-D2FF9385A7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72BFF12-D69B-4165-9F7A-D2FF9385A7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72BFF12-D69B-4165-9F7A-D2FF9385A7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E2B9DC0-100C-4C82-A591-AF531A050596} = {E9161945-1103-4AAF-8A32-11F52DB1AC4A}
+		{C652222F-5406-4DF0-B523-1F96733DD5AA} = {3E2B9DC0-100C-4C82-A591-AF531A050596}
+		{D72BFF12-D69B-4165-9F7A-D2FF9385A7D9} = {32AE5E3F-DD33-432C-B007-BCA9AD0A3588}
 	EndGlobalSection
 EndGlobal
