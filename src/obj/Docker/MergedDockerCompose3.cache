@@ -1,0 +1,14 @@
+name: dockercompose2454404888275364172
+services:
+  catalogdb:
+    container_name: catalogdb
+    environment:
+      POSTGRES_DB: CatalogdB
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose2454404888275364172_default
