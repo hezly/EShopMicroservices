@@ -4,7 +4,7 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>cd974d25-f146-4347-802f-e0b7b4c618be</ProjectGuid>
+    <ProjectGuid>3b4b9781-9990-4bd0-ad69-8180cb9856ac</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>catalog.api</DockerServiceName>
