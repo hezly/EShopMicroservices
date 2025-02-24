@@ -2,12 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/src/.vs
-/src/BuildingBlocks/BuildingBlocks/obj
-/src/Services/Catalog/Catalog.API/obj
-/src/obj
-/src/BuildingBlocks/BuildingBlocks/bin
-/src/bin
 /.vs
-/src/BuildingBlocks/BuildingBlocks/bin
+/src/.vs
 bin/
+obj/
