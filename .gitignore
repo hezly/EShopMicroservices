@@ -8,3 +8,6 @@
 /src/obj
 /src/BuildingBlocks/BuildingBlocks/bin
 /src/bin
+/.vs
+/src/BuildingBlocks/BuildingBlocks/bin
+bin/
