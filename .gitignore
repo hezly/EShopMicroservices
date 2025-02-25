@@ -6,3 +6,4 @@
 /src/.vs
 bin/
 obj/
+/src/Services/Catalog/Catalog.API/bin
