@@ -32,12 +32,19 @@ services:
       context: .
       dockerfile: Services/Discount/Discount.Grpc/Dockerfile
 
-  order.api:
+  ordering.api:
     image: ${DOCKER_REGISTRY-}orderapi
     build:
       context: .
       dockerfile: Services/Ordering/Ordering.API/Dockerfile
+  yarpapigateway:
+    image: ${DOCKER_REGISTRY-}yarpapigateway
+    build:
+      context: .
+      dockerfile: ApiGateway/YarpApiGateway/Dockerfile
+
 volumes:
   postgres_catalog:
   postgres_basket:
+
 
